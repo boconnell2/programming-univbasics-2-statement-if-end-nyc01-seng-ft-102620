@@ -1,7 +1,8 @@
 # Write your solution here
 current_time = Time.now.to_i 
-puts "Code before if...end"
-if run_code_inside
-  puts "code inside"
+if current_time % 2 == 0
+  puts "Even!"
+else
+  pts "Odd!"
 end
 puts "Code after if...end"
